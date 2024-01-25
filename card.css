@@ -1,0 +1,130 @@
+html {
+  font-family: "Nunito", sans-serif;
+}
+body {
+  background-color: white;
+}
+.container {
+  display: flex;
+}
+.card {
+  flex: 1 1 50%;
+  position: relative;
+  border: 1px solid #efefef;
+  display: flex;
+}
+
+.card-content {
+  padding: 0 0 30px;
+}
+
+.card-details {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.card-details-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-content {
+  padding: 30px 30px 110px;
+}
+
+.card-details-inner {
+  border-top: 1px solid #efefef;
+  margin: 0 30px;
+  padding: 30px 0;
+}
+
+.card h1 {
+  margin: 0;
+}
+
+.card p {
+  margin: 0 0 30px;
+}
+
+.subtitle {
+  margin: 0 0 15px;
+}
+html {
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.2;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.subtitle {
+  font-weight: 700;
+}
+a {
+  color: #e76c67;
+  text-decoration: none;
+}
+
+.subtitle {
+  margin: 0 0 15px;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #e76c67;
+}
+
+.button {
+  display: block;
+  font-size: 1rem;
+  background: #e76c67;
+  border: 1px solid #e76c67;
+  padding: 0.75rem 1rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  text-align: center;
+}
+
+.button:hover,
+.button:focus {
+  background: darken(#e76c67, 10%);
+  border: 1px solid darken(#e76c67, 10%);
+}
+
+.card {
+  box-shadow: 2px 6px 25px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  position: relative;
+}
+.card:hover {
+  box-shadow: 2px 6px 30px blue;
+}
+
+.options a {
+  color: #666666;
+}
+
+.options a:hover {
+  color: #222222;
+}
+
+.fa {
+  margin-right: 0.25rem;
+}
+
+.card-image {
+  height: 200px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
